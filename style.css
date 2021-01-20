@@ -112,7 +112,7 @@ h1 {
     position: absolute;
     width: 656px;
     height: 656px;
-    bottom: -238;
+    bottom: -238px;
     left: 50%;
     margin-left: -328px;
     border: 1px dotted white;
@@ -131,7 +131,7 @@ h1 {
     margin: 55px;
     z-index: 1000;
     animation: spin-right 3s linear infinite;
-    -webkit-animation: spin-right 3s linear infinite;
+    -webkit-animation: spin-right 3s linear infinite; 
 }
 
 #mars-orbit {
@@ -139,15 +139,15 @@ h1 {
     width: 508px;
     height: 508px;
     bottom: -164px;
-    left: 50px;
+    left: 50%;
     margin-left: -254px;
     border: 1px dotted white;
     border-radius: 50%;
     animation: spin-left 4s linear infinite;
-    -webkit-animation: spin-left 4s linear infinite;
+    -webkit-animation: spin-left 4s linear infinite
 }
 
-#mars label {
+#mars-label {
     bottom: 343px;
 }
 
